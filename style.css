@@ -31,38 +31,51 @@ header nav a {
 }
 
 .hero {
-    background: #2b2a2a;
-    color: rgb(0, 0, 0);
+    background-image: url('src/img/4.png'); /* Caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo no lado direito */
+    align-items: flex-start; /* Alinha o conteúdo no topo */
     text-align: center;
-    padding: 100px 20px;
+    padding: 20px; /* Padding interno para ajustar espaçamento das bordas da seção */
 }
-
 .hero img{
     width: 300px;
     height: 200px; 
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com 70% de transparência */
+    padding: 40px 40px; /* Espaçamento interno do container */
+    border-radius: 30px; /* Bordas arredondadas (opcional) */
+    color: white; /* Texto branco */
 }
 
 .hero h1 {
     font-size: 48px;
 }
 
-.hero p {
-    font-size: 18px;
-    margin: 20px 0;
-    margin-bottom: 20px;
+.hero-content p {
+    max-width: 700px; /* Define a largura máxima do parágrafo */
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
+    margin: 20px 0; /* Espaçamento entre o parágrafo e outros elementos */
 }
 
 .cta-button {
-    background: #ff7f50;
+    background-color: #643F23ff;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .cta-button:hover {
-    background: #ff6347;
+    background-color: #31be2c;
 }
 
 section {
