@@ -1,0 +1,32 @@
+#depoimentos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.depoimentos-container {
+    display: flex;
+    justify-content: space-between; /* Espaça os depoimentos uniformemente */
+    gap: 20px; /* Espaçamento entre as divs de depoimento */
+    flex-wrap: wrap; /* Quebra linha em telas menores */
+}
+
+.depoimento {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1; /* Faz os depoimentos se expandirem uniformemente */
+    min-width: 250px; /* Define uma largura mínima */
+    max-width: 300px; /* Define uma largura máxima */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    text-align: left;
+}
+
+.depoimento p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.depoimento span {
+    font-weight: bold;
+    color: #555;
+}

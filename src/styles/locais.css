@@ -1,0 +1,47 @@
+#locais {
+    background-color: #835737ff;
+    text-align: center;
+    padding: 50px 20px 70px; /* Aumenta o padding-bottom */
+}
+
+.locais-container {
+    display: flex;
+    justify-content: center; /* Centraliza os locais no container */
+    gap: 40px; /* Diminui o espaço entre os quadros */
+    flex-wrap: wrap; /* Quebra linha em telas menores */
+    padding: 50px 20px 70px; /* Aumenta o padding-bottom */
+}
+
+.local {
+    background-color: #643F23ff;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px; /* Define uma largura mínima */
+    max-width: 300px; /* Define uma largura máxima */
+    text-align: left;
+    box-shadow: 0 4px 10px #332418ff(0, 0, 0, 0.1); /* Leve sombra para destacar */
+    margin: 0; /* Remove margens para evitar espaçamentos extras */
+}
+
+.local img {
+    width: 100%; /* A imagem se ajusta ao tamanho da div */
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+.local-info {
+    color: #E3DFD5ff;
+    text-align: left;
+}
+
+.local-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.local-info p {
+    font-size: 16px;
+    color: #E3DFD5ff;
+}

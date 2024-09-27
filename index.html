@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page de Alta Conversão</title>
+    <title>Clínica Morello</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/styles/recursos.css">
+    <link rel="stylesheet" href="src/styles/depoimentos.css">
+    <link rel="stylesheet" href="src/styles/locais.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
 </head>
 <body>
 
@@ -27,34 +31,63 @@
     </section>
 
     <section id="recursos">
-        <h2>Principais Benefícios</h2>
-        <div class="feature">
-            <h3>Simples de Usar</h3>
-            <p>Interface intuitiva para facilitar seu dia a dia.</p>
+        <h2>Procedimentos</h2>
+        <div class="recursos-container">
+            <div class="feature">
+                <h3><img src="src/img/protese.png" alt=""></h3>
+            </div>
+            <div class="feature">
+                <h3><img src="src/img/masto.png" alt=""></h3>
+            </div>
+            <div class="feature">
+                <h3><img src="src/img/m360.png" alt=""></h3>
+            </div>
         </div>
-        <div class="feature">
-            <h3>Altamente Personalizável</h3>
-            <p>Ajuste conforme suas necessidades.</p>
-        </div>
-        <div class="feature">
-            <h3>Suporte 24/7</h3>
-            <p>Estamos sempre prontos para ajudar.</p>
-        </div>
+        <a href="https://wa.me/5551999001985?text=Olá" class="cta-button" target="_blank">Marque uma Consulta!   
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
     </section>
 
     <section id="depoimentos">
         <h2>O que nossos clientes dizem</h2>
-        <blockquote>"Este produto transformou meu negócio!"</blockquote>
-        <blockquote>"Excelente serviço e suporte incrível."</blockquote>
+        <div class="depoimentos-container">
+            <div class="depoimento">
+                <p>"Este serviço mudou a minha vida! Altamente recomendado."</p>
+                <span>- Tábata Gomes</span>
+            </div>
+            <div class="depoimento">
+                <p>"Excelente suporte e fácil de usar, realmente vale a pena!"</p>
+                <span>- Maria Oliveira</span>
+            </div>
+            <div class="depoimento">
+                <p>"Fui super bem atendida! Hoje me sinto muito melhor!"</p>
+                <span>- Anita Gaspar</span>
+            </div>
+        </div>
     </section>
 
-    <section id="contato">
-        <h2>Entre em Contato</h2>
-        <form>
-            <input type="text" placeholder="Seu nome" required>
-            <input type="email" placeholder="Seu email" required>
-            <button type="submit">Enviar</button>
-        </form>
+    <section id="locais">
+        <h2>Nossos Locais</h2>
+        <div class="locais-container">
+            <div class="local">
+                <img src="src/img/clinica-iguatemi.png" alt="Local 1">
+                <div class="local-info">
+                    <h3>Local 1</h3>
+                    <p>Av. Doutor Nilo Peçanha, 2811, sala 1607
+                        Iguatemi Corporate<br>Bairro Chácara das Pedras - Porto Alegre</p>
+                </div>
+            </div>
+            <div class="local">
+                <img src="src/img/clinica-solaris.jpg" alt="Local 2">
+                <div class="local-info">
+                    <h3>Clínica Solaris</h3>
+                    <p>Av. Benjamin Constant, 169, sala 311<br>Bairro Passo das Pedras - Gravataí</p>
+                </div>
+            </div>
+        </div>
+        <a href="https://wa.me/5551999001985?text=Olá" class="cta-button" target="_blank">Marque uma Consulta!   
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
     </section>
 
     <footer>

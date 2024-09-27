@@ -1,0 +1,42 @@
+#recursos {
+    background-color: #E3DFD5ff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.recursos-container {
+    display: flex; /* Alinha as divs lado a lado */
+    justify-content: space-between; /* Distribui o espaço entre as divs */
+    gap: 20px; /* Espaço entre as divs */
+    flex-wrap: wrap; /* Permite que as divs quebrem linha se a tela for pequena */
+}
+
+.feature {
+    background-color: #835737ff;
+    padding: 20px;
+    border-radius: 30px;
+    flex: 1; /* Faz as divs se expandirem uniformemente */
+    min-width: 250px; /* Largura mínima das divs */
+    text-align: left;
+}
+
+.feature img {
+    max-width: 100%; /* A imagem não pode ser maior que o container */
+    max-height: 100%; /* A imagem também respeita a altura do container */
+    object-fit: cover; /* Garante que a imagem preencha o espaço proporcionalmente */
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.feature img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% quando o mouse passa sobre ela */
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.feature p {
+    font-size: 16px;
+}
